@@ -1,15 +1,13 @@
 body{
     display: flex;
-    width: 100vw;
-    height: 100vh;
     padding: 60px;
     padding-top: 30px;
+    flex-direction: column;
     font-family: 'Montserrat', sans-serif;
     
 }
 header{
     height: 70px;
-    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -49,9 +47,106 @@ header{
 #menu{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 50%;
-    height: 70px;
-    align-items: center;
-    margin-left: 35%;
+    /* align-items: center; */
+    margin-top:29px;
+}
+#nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex: 1;
+    width: 533px;
+    height: 19px;
+}
+#menu a{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 17.1px;
+    color: #777d8b;
+    text-decoration: none;
+}
+#bar div{
+    width: 21.1px;
+    height: 3.9px;
+    background-color:#cdd2e1 ;
+    text-decoration: none;
+    margin:3.1px 0;
+}
+#bodydecoration{
+    width: 100%;
+    margin-top: 58px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+#body-1  {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 100px;
+ 
+    background-color: #ffffff;
+
+    
+}
+#body-1 p {
+    font-size: 13.2px;
+    letter-spacing: 0.1px;
+    color: #686d79;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+#giveaway{
+    font-size: 72.4px;
+    font-weight: 800;
+    line-height: 64px;
+    letter-spacing: -0.05px; 
+    color: #535c64;
+    margin-bottom: 39.6px;
+}
+
+#body_2{ 
+    display: flex;
+    flex-direction: row;
+    background: url(group-2-3-x.png) no-repeat center right;
+    background-size: contain;
+    width: 50%;
+    height: 677px;
+    
+    
+} 
+  #followus{
+      margin-top: 53.7px;
+      display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  #followus a {
+      margin-right: 20px;
+  }
+  #cta {
+    font-size: 13.2px;
+    letter-spacing: 0.1px;
+    color: #d6dbe7;
+    margin-right: 30px;
+  }
+#readmore{
+    margin-top: 42px;
+    display: inline-block;
+    padding: 11.4px 47.6px 16.4px 38.4px;
+        height: 16px;
+        line-height: 16px;     
+        background-color: #d7e3f8;
+        border-radius: 30px;;
+        text-transform: uppercase;
+    color: #bdcce0;
+    text-decoration: none;
+    font-size: 13px;
+    text-align: center;
+    
 }
