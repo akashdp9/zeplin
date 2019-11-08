@@ -3,6 +3,7 @@ body{
     display: flex;
     flex-direction: column;
     font-family: Roboto;
+    width: 100%;
     margin-left: 135px;
 
 }
@@ -18,8 +19,9 @@ header{
     width: 50%;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
     align-items: center;
+    justify-content: space-evenly;
+    
 }
 #header-logo{
     background-color: #25df8f;
@@ -76,6 +78,7 @@ header{
   display: flex;
   flex-direction: row;
   justify-content: center;
+  
 
 }
 #explore-content-description{
@@ -88,7 +91,7 @@ header{
 }
 #explore-content-logo {
   display: flex;
-  justify-content: flex-start;
+  align-content: center;
   width: 41px;
   height: 53px;
   
@@ -97,16 +100,17 @@ header{
   font-size:36px;
   font-weight: 400;
   display: flex;
+  justify-content: flex-start;
   color: #2b313d;
   margin-left: 135px;
   height: 35px;
 }
-#explore-content{
+/* #explore-content{
   display:flex;
   flex-direction: row;
   justify-content: center;  
   
-}
+} */
   #explore-content-searchbar input {
     margin-left: 135px;
     width:470px;
@@ -123,21 +127,23 @@ header{
 #explore-content-picture{
   width: 50%;
   height: 550px;
-  background-image: url(right.png) ;
+  background-image: url(right.jpg) ;
   background-repeat: no-repeat;
   background-size: cover;
   
 
 }
-#explore-content-filter{
+/* #explore-content-filter{
   margin-left: 135px;
-}
+} */
 
 #detail-content
 {
   width: 100%;
   display: flex;
   flex-direction: column;
+  background-color: #f6f6f7 ;
+  align-items: center; 
 
 }
 #detail-content-container{
@@ -145,13 +151,14 @@ header{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 135px;
+  /* margin-left: 135px; */
   margin-right: 135px;
 }
 #detail-content-container-heading{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-right: 135px;
 }
 #detail-content-container-heading-name-span{
   color: #949fb7;
@@ -167,32 +174,43 @@ font-size: 24px;
 #detail-content-container-showall{
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: center;
 }
 #detail-content-container-explored{
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  margin-right: 135px;
   
 }
 #detail-content-container-explored-hotel{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: flex-start;
 
 }
-#detail-content-container-explored-hotel-picture img{
-  height: 190px;
-  width: 270px;
+#detail-content-container-explored-hotel-picture {
+  /* height: 190px;
+  width: 270px; */
+  display: flex;
+  flex-direction: row;
+
 }
 #detail-content-container-explored-hotel-price{
-  font-weight: 400px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  
+  /* font-weight: 400px; */
   color: #2b313d;
   font-size: 16px;
 }
 #detail-content-container-explored-hotel-price span{
   display: flex;
   flex-direction: row;
+  justify-content: flex-end;
   
 }
 
@@ -201,12 +219,17 @@ font-size: 24px;
   flex-direction: row;
   justify-content: center;
   width: 100%;
-margin: 135px;
+  height: 334px;
+  border:1px solid grey;
+  margin-top: 120px;
+/* margin: 135px; */
 }
 #detail-content-bottom-firstpart{
   display: flex;
-  width: 25%;
-  flex-direction: column;
+  width: 50%;
+  flex-direction: row;
+  justify-content: space-between;
+
  
 }
 #detail-content-bottom-firstpart-logo{
@@ -240,7 +263,7 @@ margin: 135px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 75%;
+  width: 50%;
   
   
 }
@@ -249,10 +272,10 @@ margin: 135px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  width: 25%;
+  /* width: 25%; */
 }
 #detail-content-bottom-secondpart-dicover{
-  width: 25%;
+  /* width: 25%; */
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -260,7 +283,7 @@ margin: 135px;
 
 }
 #detail-content-bottom-secondpart-hosting{
-  width: 25%;
+  /* width: 25%; */
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -270,4 +293,15 @@ margin: 135px;
   text-decoration: none;
   color: black;
 }
-explorestyle.css
+#final{
+  display: flex;
+  flex-direction: column;
+  align-items: space-evenly;
+}
+
+#final{
+  display: flex;
+  flex-direction: column;;
+  justify-content: space-evenly;
+  margin-left: 60px;
+}
